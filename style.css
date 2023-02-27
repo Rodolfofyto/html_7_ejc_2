@@ -5,8 +5,12 @@
 body{
     background-color: lightblue;
 }
+header{
+    background-image: url(mundo.webp);
+    background-size: 100%;
+    height: 150px;
+}
 header, nav, main, section, footer{
-    border: solid 1px red;
     margin: 5px;
     padding: 5px;
 }
@@ -16,12 +20,14 @@ header figure img{
 }
 header nav ul li a{
     text-decoration: none;
-    margin: 30px;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
 }
 li{
     display: inline-block;
-    margin: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
+    
 }
 figure{
     display: inline-block;
@@ -29,11 +35,15 @@ figure{
 nav{
     display: inline-block;
     justify-content: end;
+    width: 60%;
+    text-align: right;
+    
 }
 header h1{
     display: inline-block;
     margin-left: 20px;
     text-align: right;
+    color: white;
 }
 .paris {
     width: 30%;
