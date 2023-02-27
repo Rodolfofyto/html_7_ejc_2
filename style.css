@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-header, nav, main, footer{
+body{
+    background-color: lightblue;
+}
+header, nav, main, section, footer{
     border: solid 1px red;
     margin: 5px;
     padding: 5px;
@@ -30,4 +33,29 @@ nav{
 header h1{
     display: inline-block;
     margin-left: 20px;
+    text-align: right;
+}
+.paris {
+    width: 30%;
+    display: inline-block;
+    background-image: url(/París/paris-eiffel.jpg);
+    background-size: 700px ;
+    background-position: center;
+}
+.roma {
+    width: 30%;
+    display: inline-block;
+    background-image: url(/Roma/roma.jpg);
+    background-size: 600px ;
+    background-position: center;
+}
+.barsa {
+    width: 30%;
+    display: inline-block;
+    background-image: url(/Barcelona/parcguell.jpg);
+    background-size: 300px ;
+    background-position: center;
+}
+section{
+    height: 500px;
 }
