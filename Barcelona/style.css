@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer{
+    border: solid 1px red;
+    margin: 5px;
+    padding: 5px;
+}
