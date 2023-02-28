@@ -1,19 +1,124 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(240, 241, 242);
 }
-header .logo{
+
+/* Estos son los estilos del header */
+header {
+    background-color: white;
+}
+
+header .logo {
     width: 70px;
     border-radius: 50%;
 }
 
-article img{
+header figure {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+header figure figcaption {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav {
+    display: inline-block;
+
+}
+
+header nav ul li {
+    display: inline-block;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Estos son los estilos del main */
+main .titulo h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 150px;
+    color: rgb(93, 2, 2);
+}
+
+.titulo {
+    background-image: url(unavez.webp);
+    box-shadow: 0 0 5px 5px;
+}
+
+.producto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+section h2 {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+article img {
     width: 200px;
     height: 200px;
+    box-shadow: 0 0 3px 3px rgb(93, 2, 2);
+    margin-top: 20px;
 }
-header, nav, main, section, article,footer{
+
+article {
+    text-align: center;
+    width: 30%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 30px;
+    box-shadow: 0 0 5px 5px gainsboro;
+}
+
+article p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px;
+}
+
+button {
+    background-color: antiquewhite;
+    border: solid 2px pink;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+header,
+figure,
+nav,
+main,
+section,
+article,
+footer {
     border: solid 1px red;
 }
+
+
+/* Estos son los estilos del footer */
