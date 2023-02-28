@@ -9,7 +9,9 @@ body {
 
 /* Estos son los estilos del header */
 header {
-    background-color: white;
+    background-color:transparent;
+    width: 10%;
+    display: inline-block;
 }
 
 header .logo {
@@ -19,8 +21,11 @@ header .logo {
 
 header figure {
     display: inline-block;
-    margin: 10px;
-    padding: 10px;
+    width: 100%;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 0;
+    background-color:transparent;
 }
 
 header figure figcaption {
@@ -28,13 +33,17 @@ header figure figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header nav {
+nav {
+    width: 80%;
     display: inline-block;
-
+    text-align: right;
+    margin: 50px;
+    background-color: aliceblue;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
+    padding: 15px;
 }
 
 li:hover {
@@ -48,26 +57,29 @@ li a:hover {
     transition: 0, 9;
 }
 
-header nav ul li a {
+nav ul li a {
     text-decoration: none;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
     color: black;
 }
-
+nav {
+    position: sticky;
+    top: 80px;
+  }
 
 /* Estos son los estilos del main */
 main .titulo h1 {
     font-size: 50px;
     text-align: center;
-    margin: 150px;
+    padding: 170px;
     color: rgb(93, 2, 2);
 }
 
 .titulo {
     background-image: url(unavez.webp);
-    box-shadow: 0 0 5px 5px;
+    box-shadow: 0 5px 5px 0;
 }
 
 .producto {
@@ -108,32 +120,28 @@ p {
     margin: 10px;
 }
 
+.name {
+    color: rgb(4, 58, 91);
+    font-size: 30px;
+}
+
 button {
-    background-color: antiquewhite;
-    border: solid 2px pink;
+    background-color: rgb(225, 223, 220);
+    border: solid 1px rgb(44, 44, 44);
     padding: 5px;
     border-radius: 5%;
+    margin: 15px;
 }
 
 button a {
     text-decoration: none;
     color: black;
 }
- 
-button:hover{
-    text-transform: uppercase;
-    padding: 10px;   
-}
-header,
-figure,
-nav,
-main,
-section,
-article,
-footer {
-    border: solid 1px red;
-}
 
+button:hover {
+    text-transform: uppercase;
+    padding: 10px;
+}
 
 /* Estos son los estilos del footer */
 footer {
