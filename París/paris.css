@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(240, 241, 242);
+}
+
+/* Estos son los estilos del header */
+header {
+    background-color: transparent;
+    width: 20%;
+    display: inline-block;
+}
+
+header .logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+header figure {
+    display: inline-block;
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+header figure figcaption {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav {
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+li:hover {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+li a:hover {
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+}
+
+/* Estos son los estilos del main */
+main {
+    color: rgb(93, 2, 2);
+   
+}
+
+
+/* Estos son los estilos del footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 50%;
+}
