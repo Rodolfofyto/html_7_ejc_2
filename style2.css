@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 241, 242);
+}
+header .logo{
+    width: 70px;
+    border-radius: 50%;
+}
+
+article img{
+    width: 200px;
+    height: 200px;
+}
+header, nav, main, section, article,footer{
+    border: solid 1px red;
+}
