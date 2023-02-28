@@ -35,7 +35,17 @@ header nav {
 
 header nav ul li {
     display: inline-block;
+}
 
+li:hover {
+    text-transform: uppercase;
+    background-color: gray;
+    padding: 10px;
+}
+
+li a:hover {
+    color: white;
+    transition: 0, 9;
 }
 
 header nav ul li a {
@@ -109,7 +119,11 @@ button a {
     text-decoration: none;
     color: black;
 }
-
+ 
+button:hover{
+    text-transform: uppercase;
+    padding: 10px;   
+}
 header,
 figure,
 nav,
@@ -122,3 +136,12 @@ footer {
 
 
 /* Estos son los estilos del footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 50%;
+}
