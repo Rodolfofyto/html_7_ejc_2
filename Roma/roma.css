@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #78f0f6;
+    background-color: #f6b379;
 }
 
 /* Estos son los estilos del header */
@@ -47,7 +47,7 @@ nav ul li {
 
 nav ul li a:hover {
     color: white;
-    background-color: #6dc9ce;
+    background-color: #d67233;
     border-radius: 10%;
     padding: 13px;
     transition-duration: 5ms;
@@ -100,7 +100,7 @@ section aside {
     display: inline-block;
 }
 
-#paris {
+#roma {
     width: 94%;
     box-shadow: 0 0 2px 2px;
 }
