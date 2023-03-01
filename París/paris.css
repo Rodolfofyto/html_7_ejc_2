@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(240, 241, 242);
+    background-color: #78f0f6;
 }
 
 /* Estos son los estilos del header */
@@ -45,14 +45,13 @@ nav ul li {
     padding: 15px;
 }
 
-nav li:hover {
-    background-color: gray;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-nav li a:hover {
+nav ul li a:hover {
     color: white;
+    background-color: #6dc9ce;
+    border-radius: 10%;
+    padding: 13px;
+    transition-duration: 5ms;
+    text-transform: uppercase;
 }
 
 nav ul li a {
@@ -60,45 +59,74 @@ nav ul li a {
     margin: 5px;
     padding: 10px;
     color: black;
+    font-weight: bold;
 }
 
 /* Estos son los estilos del main */
-main h1{
-   text-align: center;
-   font-size: 300%;
+main h1 {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(109, 20, 20);
 }
 
-section article{
+main h2{
+    color: #0d8288;
+}
+
+section article {
     margin-top: 0;
+    margin-left: 30px;
     width: 50%;
     padding: 10px;
     display: inline-block;
     background-color: white;
     text-align: justify;
+}
+
+section article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 
 }
+
+section article a:hover {
+    color: blue;
+}
+
 section aside {
     margin: 20px;
     width: 40%;
     display: inline-block;
 }
+
 #paris {
     width: 94%;
     box-shadow: 0 0 2px 2px;
 }
-.segunda ul{
-    border: solid 1px;
+
+.segunda ul {
     text-align: center;
-    margin:30px;
     padding: 30px;
+
 }
-.segunda li{
+
+.segunda li {
     display: inline;
     margin: 30px;
     padding: 30px;
 }
-.segunda li a{
-    
+
+.segunda li a {
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+}
+
+.segunda li a:hover {
+    color: white;
+    transition: 2ms;
 }
 
 
