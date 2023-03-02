@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6b379;
+}
+
+/* Estos son los estilos del header */
+header {
+    background-color: transparent;
+    width: 20%;
+    display: inline-block;
+}
+
+header .logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+header figure {
+    display: inline-block;
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+header figure figcaption {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #d67233;
+    border-radius: 10%;
+    padding: 13px;
+    transition-duration: 5ms;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estos son los estilos del main */
+main h1 {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(109, 20, 20);
+}
+
+main h2{
+    color: #943e08;
+}
+
+section article {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+    text-align: justify;
+}
+
+section article a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+section article a:hover {
+    color: blue;
+}
+
+section aside {
+    margin: 20px;
+    width: 40%;
+    display: inline-block;
+}
+
+#barca {
+    width: 94%;
+    box-shadow: 0 0 2px 2px;
+}
+
+.segunda ul {
+    text-align: center;
+    padding: 30px;
+
+}
+
+.segunda li {
+    display: inline;
+    margin: 30px;
+    padding: 30px;
+}
+
+.segunda li a {
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    color: black;
+}
+
+.segunda li a:hover {
+    color: white;
+    transition: 2ms;
+}
+
+
+/* Estos son los estilos del footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 50%;
+}

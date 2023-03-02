@@ -67,6 +67,7 @@ main h1 {
     text-align: center;
     font-size: 300%;
     color: rgb(109, 20, 20);
+    margin-bottom: 30px;
 }
 
 main h2{
@@ -94,9 +95,9 @@ section article a:hover {
     color: blue;
 }
 
-section aside {
+aside {
     margin: 20px;
-    width: 40%;
+    width: 37%;
     display: inline-block;
 }
 
@@ -113,8 +114,8 @@ section aside {
 
 .segunda li {
     display: inline;
-    margin: 30px;
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
 }
 
 .segunda li a {
