@@ -8,6 +8,15 @@ body {
 }
 
 /* Estos son los estilos del header */
+
+div {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0 0 5px rgb(1, 60, 187);
+}
+
 header {
     background-color: transparent;
     width: 20%;
@@ -37,7 +46,6 @@ nav {
     display: inline-block;
     text-align: right;
     margin: 10px;
-    background-color: aliceblue;
 }
 
 nav ul li {
@@ -69,7 +77,7 @@ main h1 {
     color: rgb(109, 20, 20);
 }
 
-main h2{
+main h2 {
     color: #0d8288;
 }
 
