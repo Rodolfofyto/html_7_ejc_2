@@ -6,32 +6,35 @@
 body {
     background-color: #f6b379;
 }
-
 /* Estos son los estilos del header */
 div {
+    display: flex;
     background-color: white;
     position: sticky;
     top: 0px;
     width: 100%;
-    box-shadow: 0 0 5px rgb(95, 47, 2);
+    box-shadow: 0 0 5px gray;
+    height: 150px;
 }
 
 header {
     background-color: transparent;
-    width: 20%;
+    width: 10%;
     display: inline-block;
 }
 
 header .logo {
-    width: 50px;
+    width: 70px;
     border-radius: 50%;
 }
 
 header figure {
+    flex: 1;
     display: inline-block;
     width: 100%;
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 0;
     background-color: transparent;
 }
 
@@ -41,11 +44,11 @@ header figure figcaption {
 }
 
 nav {
-    width: 70%;
+    flex: 3;
+    width: 80%;
     display: inline-block;
     text-align: right;
-    margin: 10px;
-
+    margin: 50px;
 }
 
 nav ul li {
@@ -53,22 +56,35 @@ nav ul li {
     padding: 15px;
 }
 
-nav ul li a:hover {
+li a:hover {
     color: white;
-    background-color: #d67233;
-    border-radius: 10%;
-    padding: 13px;
     transition-duration: 5ms;
     text-transform: uppercase;
+    background-color: rgb(4, 98, 91);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 nav ul li a {
     text-decoration: none;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
+    font-size: 20px;
     color: black;
-    font-weight: bold;
 }
+
+div > form{
+    flex: 1;
+    margin: 1%;
+}
+
+.form--enviar {
+   background-color: #73a474;
+   padding: 1.5%;
+   border-color: #ecf8ed;
+   margin-right:5%;
+}
+
 
 /* Estos son los estilos del main */
 main h1 {

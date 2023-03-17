@@ -9,6 +9,7 @@ body {
 
 /* Estos son los estilos del header */
 div {
+    display: flex;
     background-color: white;
     position: sticky;
     top: 0px;
@@ -29,6 +30,7 @@ header .logo {
 }
 
 header figure {
+    flex: 1;
     display: inline-block;
     width: 100%;
     margin-left: 20px;
@@ -43,6 +45,7 @@ header figure figcaption {
 }
 
 nav {
+    flex: 3;
     width: 80%;
     display: inline-block;
     text-align: right;
@@ -69,6 +72,18 @@ nav ul li a {
     padding: 10px;
     font-size: 20px;
     color: black;
+}
+
+div > form{
+    flex: 1;
+    margin: 1%;
+}
+
+.form--enviar {
+   background-color: #73a474;
+   padding: 1.5%;
+   border-color: #ecf8ed;
+   margin-right:5%;
 }
 
 /* Estos son los estilos del main */

@@ -4,11 +4,10 @@
 }
 
 body {
-    background-color: #78f0f6;
+    background-color: #ecf8ed;
 }
 
 /* Estos son los estilos del header */
-
 div {
     display: flex;
     background-color: white;
@@ -87,82 +86,78 @@ div > form{
    margin-right:5%;
 }
 
-
 /* Estos son los estilos del main */
+main article {
+    margin: 1%;
+    padding: 2%;
+}
+
 main h1 {
+    font-size: 2vw;
     text-align: center;
-    font-size: 300%;
-    color: rgb(109, 20, 20);
+    font-family: 'Fredoka One', cursive;
+    color: rgb(2, 84, 2);
 }
 
-main h2 {
-    color: #0d8288;
+main section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-section article {
-    margin-top: 0;
-    margin-left: 30px;
-    width: 50%;
-    padding: 10px;
-    display: inline-block;
-    background-color: white;
-    text-align: justify;
+section form {
+    margin-top: 1%;
+    padding: 1%;
+    border: 1px solid #065e14;
+    text-align: left;
+    width: 20%;
+    background-color: #fafafa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(35, 232, 20, 0.2);
+    min-width: 500px;
 }
 
-section article a {
-    text-decoration: none;
-    color: black;
+form * {
+    padding: 0.5%;
+    margin-bottom: 3%;
+}
+
+form label {
     font-weight: bold;
-
 }
 
-section article a:hover {
-    color: blue;
-}
-
-section aside {
-    margin: 20px;
-    width: 40%;
-    display: inline-block;
-}
-
-#paris {
-    width: 94%;
-    box-shadow: 0 0 2px 2px;
-}
-
-.segunda ul {
-    text-align: center;
-    padding: 30px;
-
-}
-
-.segunda li {
-    display: inline;
-    margin: 30px;
-    padding: 30px;
-}
-
-.segunda li a {
-    text-decoration: none;
-    font-size: 150%;
+form button {
+    width: 30%;
+    color: #065e14;
+    background-color: #ecf8ed;
+    padding: 2%;
     font-weight: bold;
-    color: black;
+    cursor: pointer;
+    margin-left: 25%;
 }
 
-.segunda li a:hover {
-    color: white;
-    transition: 2ms;
+form button:hover {
+    color: rgb(247, 242, 242);
+    background-color: #0b710c;
 }
 
+main section img {
+    box-shadow: 0px 0px 5px 0px rgba(8, 8, 8, 0.2);
+}
 
 /* Estos son los estilos del footer */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 footer img {
     width: 50px;
     border-radius: 50%;
+}
+
+footer a {
+    text-decoration: none;
 }
