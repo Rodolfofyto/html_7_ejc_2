@@ -79,8 +79,17 @@ div > form{
     margin: 1%;
 }
 
+form * {
+    padding: 0.5%;
+    margin-bottom: 3%;
+}
+
+form label {
+    font-weight: bold;
+}
+
 .form--enviar {
-   background-color: #73a474;
+   background-color: #d0dad0;
    padding: 1.5%;
    border-color: #ecf8ed;
    margin-right:5%;
