@@ -2,42 +2,117 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registro</title>
+    <link rel="stylesheet" href="registro.css" />
 </head>
 
 <body>
-    <form action="">
-        <fieldset>
-            <legend>registro:</legend>
-            <label>Usuario:</label>
-            <input type="text" name="usuario" /><br />
+    <div>
+        <header>
+            <figure>
+                <img class="logo" src="logo.jpg" title="Mundo" alt="logo mundo" />
+                <figcaption>Rodolfo Trips</figcaption>
+            </figure>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="/París/paris.html">París</a>
+                </li>
+                <li>
+                    <a href="/Roma/roma.html">Roma</a>
+                </li>
+                <li>
+                    <a href="/Barcelona/barca.html">Barcelona</a>
+                </li>
+                <li>
+                    <a href="registro.html">Registro</a>
+                </li>
+                <li>
+                    <a href="/contact.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <form action="">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="">Usuario</label>
+                <input type="text" name="usuario" />
+                <label for="">Clave:</label>
+                <input type="password" name="password" />
+            </fieldset>
+            <input class="form--enviar" type="submit" value="Enviar" />
+            <input class="form--enviar" type="reset" value="Borrar" />
+        </form>
+    </div>
+    <main>
+        <h1>Registrate aquí para acceder a nuetros servicios</h1>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Registro:</legend>
+                    <label>Usuario:</label>
+                    <input type="text" name="usuario" /><br />
 
-            <label>Password:</label>
-            <input type="password" name="password" /><br />
- 
-            <label>Nombre:</label>
-            <input type="text" name="name" /><br />
-            
-            <label>Apellidos:</label>
-            <input type="password" name="password" /><br />
-            
-            <label>Fecha de nacimiento:</label>
-            <input type="date" name="date" /><br />
-            <select name="">
-                <option value="">Excursiones</option>
-                <option value="">Presupuesto</option>
-                <option value="">Reserva</option>
-            </select>
-             <br/>
-            <label for=""></label>
-            <textarea cols="40" rows="10"></textarea>
-            <input type="submit" value="Enviar" />
-        </fieldset>
+                    <label>Password:</label>
+                    <input type="password" name="password" /><br />
 
-    </form>
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" /><br />
+
+                    <label>Apellidos:</label>
+                    <input type="text" name="apellidos" /><br />
+
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="fecha de nacimiento" /><br />
+
+                    <label>DNI:</label>
+                    <input type="text" name="DNI" />
+                    <br />
+
+                    <label>Dirección:</label>
+                    <input type="text" name="dirección" />
+                    <br />
+
+                    <label>CP:</label>
+                    <input type="text" name="CP" />
+                    <br />
+
+                    <label>Población:</label>
+                    <input type="text" name="población" />
+                    <br />
+
+                    <label>Provincia:</label>
+                    <input type="text" name="provincia" />
+                    <br />
+
+                    <label>Email:</label>
+                    <input type="email" name="email" />
+                    <br />
+                </fieldset>
+                <button type="submit">Acepto</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <a href="" target="_blank">
+            <img src="fblogo.jpg" title="Facebbok" alt="logo Facebbok" />
+        </a>
+        <a href="" target="_blank">
+            <img src="twlogo.png" title="Twiter" alt="logo Twiter" />
+        </a>
+        <a href="" target="_blank">
+            <img src="instlogo.png" title="Instagram" alt="logo Instagram" />
+        </a>
+        <p>Contacto: <a href="mailto:gcaribe14@hotmail.com">Aquí</a></p>
+        <p>&copy; 2023 Rodolfo Trips</p>
+    </footer>
 </body>
 
 </html>
