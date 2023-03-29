@@ -74,7 +74,7 @@ nav ul li a {
     color: black;
 }
 
-div > form{
+div>form {
     flex: 1;
     margin: 1%;
 }
@@ -89,10 +89,10 @@ form label {
 }
 
 .form--enviar {
-   background-color: #d0dad0;
-   padding: 1.5%;
-   border-color: #ecf8ed;
-   margin-right:5%;
+    background-color: #d0dad0;
+    padding: 1.5%;
+    border-color: #ecf8ed;
+    margin-right: 5%;
 }
 
 /* Estos son los estilos del main */
@@ -180,6 +180,27 @@ button:hover {
     padding: 15px;
     border: solid 3px black;
 }
+
+.wrapper {
+    width: 60%;
+    background-color: #ffffff;
+    margin: 50px auto 50px auto;
+    position: relative;
+    border: solid 1px #000000;
+    padding: 10px 30px 100px 30px;
+    box-shadow: 5px 5px 5px rgba(60, 60, 60, 0.6);
+    display: flex;
+}
+
+.youtube {
+    flex: 1;
+}
+
+.cava{
+    width: 100%;
+    flex: 1;
+}
+
 
 /* Estos son los estilos del footer */
 footer {
