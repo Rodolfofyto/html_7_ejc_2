@@ -139,28 +139,73 @@ aside {
     box-shadow: 0 0 2px 2px;
 }
 
-.segunda ul {
-    text-align: center;
-    padding: 30px;
 
+h3{
+    margin: 2%;
+    color: #640101;
+    font-size: 2em;
+    font-variant: small-caps;
 }
 
+.main__article{
+    display: flex;
+    align-items: center;
+}
+
+.segunda{
+    flex: 1;
+    margin-left: 3%;
+}
+
+.section--table{
+    flex: 1;
+    margin-left: 20%;
+}
 .segunda li {
-    display: inline;
-    margin: 20px;
-    padding: 20px;
+    margin: 1%;
+    padding: 1%;
+    list-style: none;
 }
 
 .segunda li a {
     text-decoration: none;
     font-size: 150%;
     font-weight: bold;
-    color: black;
+    color: #000000;
 }
 
 .segunda li a:hover {
-    color: white;
-    transition: 2ms;
+    color: #ffffff;
+}
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td,th {
+    padding: 10px;
+    border: solid 1px #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead th {
+    background-color: #303130;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #def3f2;
+}
+
+tbody tr:nth-of-type(2) {
+    background-color: #f9fbfc;
+}
+
+tfoot td {
+    background-color: rgb(161, 191, 169);
+    font-style: italic;
 }
 
 
